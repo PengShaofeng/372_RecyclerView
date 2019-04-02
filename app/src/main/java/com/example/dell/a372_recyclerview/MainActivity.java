@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initMsgs();//初始化数据
+        initMsg();//初始化数据
 
         inputText = (EditText) findViewById(R.id.input_text);
         send = (Button) findViewById(R.id.send);
@@ -60,12 +60,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void initMsgs() {
+    private void initMsg() {
         Msg msg1 = new Msg("Hello guy", Msg.TYPE_RECEIVED);
         msgList.add(msg1);
         Msg msg2 = new Msg("Hello. Who is that?", Msg.TYPE_SENT);
         msgList.add(msg2);
-        Msg msg3 = new Msg("This is Tom.Nice taiking to you", Msg.TYPE_RECEIVED);
+        Msg msg3 = new Msg("This is Tom.Nice talking to you", Msg.TYPE_RECEIVED);
         msgList.add(msg3);
     }
 }
