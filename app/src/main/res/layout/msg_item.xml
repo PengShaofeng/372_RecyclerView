@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:background="@mipmap/ic_launcher">
+        android:background="@drawable/message_left">
 
         <TextView
             android:id="@+id/left_msg"
@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:background="@mipmap/ic_launcher">
+        android:background="@drawable/message_right">
 
 
         <TextView
